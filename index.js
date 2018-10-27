@@ -11,6 +11,19 @@ var arrayMeans = {
         });
 
         return result / arr.length;
+    },
+    quadratic: function(arr) {
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
+        }
+
+        var result = 0;
+
+        arr.forEach(function (e) {
+            result += Math.pow(e, 2);
+        });
+
+        return Math.sqrt(result / arr.length);
     }
 };
 
