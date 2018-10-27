@@ -1,0 +1,27 @@
+{
+  "name": "array-means",
+  "version": "1.0.0",
+  "description": "Calculates various averages of an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bikossor/array-means.git"
+  },
+  "keywords": [
+    "array",
+    "mean",
+    "means",
+    "average",
+    "averages",
+    "avg"
+  ],
+  "author": "André Lichtenthäler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bikossor/array-means/issues"
+  },
+  "homepage": "https://github.com/Bikossor/array-means#readme"
+}
