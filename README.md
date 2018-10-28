@@ -2,6 +2,7 @@
 Calculates various averages of an array
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/57813ca8a5d943ecabbe8decc36d04da)](https://www.codacy.com/app/Bikossor/array-means?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bikossor/array-means&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/Bikossor/array-means.svg?branch=develop)](https://travis-ci.org/Bikossor/array-means)
 
 ## Installing
 ### Node.js environment
