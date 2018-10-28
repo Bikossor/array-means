@@ -39,6 +39,23 @@ var arrayMeans = {
         });
 
         return Math.sqrt(result / arr.length);
+    },
+    /**
+     * @param {Array<Number>} arr - The array of which the harmonic mean is calculated on
+     * @returns {Number} The harmonic mean
+     */
+    harmonic: function(arr) {
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
+        }
+
+        var result = 0;
+
+        arr.forEach(function (e) {
+            result += 1 / e;
+        });
+
+        return arr.length / result;
     }
 };
 
