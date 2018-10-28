@@ -24,6 +24,9 @@ var amean = arrayMeans.arithmetic([10, 25, 50]);
 
 var qmean = arrayMeans.quadratic([10, 25, 50]);
 // qmean => 32.78719262151
+
+var hmean = arrayMeans.harmonic([10, 25, 50]);
+// hmean => 18.75
 ```
 
 ## Contributing
