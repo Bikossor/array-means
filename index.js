@@ -15,11 +15,9 @@ var arrayMeans = {
             throw new Error("Argument is not an array!");
         }
 
-        var result = 0;
-
-        arr.forEach(function (e) {
-            result += e;
-        });
+        var result = arr.reduce(function(a, b) {
+            return a + b;
+        }, 0);
 
         return result / arr.length;
     },
@@ -32,11 +30,9 @@ var arrayMeans = {
             throw new Error("Argument is not an array!");
         }
 
-        var result = 0;
-
-        arr.forEach(function (e) {
-            result += Math.pow(e, 2);
-        });
+        var result = arr.reduce(function(a, b) {
+            return a + Math.pow(b, 2);
+        }, 0);
 
         return Math.sqrt(result / arr.length);
     },
@@ -49,11 +45,9 @@ var arrayMeans = {
             throw new Error("Argument is not an array!");
         }
 
-        var result = 0;
-
-        arr.forEach(function (e) {
-            result += 1 / e;
-        });
+        var result = arr.reduce(function(a, b) {
+            return a + (1 / b);
+        }, 0);
 
         return arr.length / result;
     }
