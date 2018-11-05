@@ -4,7 +4,8 @@
   "description": "Calculates various averages of an array",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "benchmark": "node ./test/benchmark.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/Bikossor/array-means#readme",
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "jest": "^23.6.0"
   }
 }

@@ -29,6 +29,15 @@ var hmean = arrayMeans.harmonic([10, 25, 50]);
 // hmean => 18.75
 ```
 
+## Benchmark
+| Algorithm | Operations per second | Tolerance | Number of runs |
+| :-- | :-- | :-- | :-- |
+| arithmetic | 3,847,699 ops/sec | ±0.10% | 91 runs sampled |
+| quadratic | 3,332,029 ops/sec | ±0.61% | 96 runs sampled |
+| harmonic | 3,255,164 ops/sec | ±0.34% | 92 runs sampled |
+
+Tested with the benchmark suite inside the test folder on a PC with an Intel Core i7-4790K @ 4.40 GHz
+
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
