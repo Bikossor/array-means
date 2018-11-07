@@ -32,11 +32,11 @@ var hmean = arrayMeans.harmonic([10, 25, 50]);
 ## Benchmark
 | Algorithm | Operations per second | Tolerance | Number of runs |
 | :-- | :-- | :-- | :-- |
-| arithmetic | 3,847,699 ops/sec | ±0.10% | 91 runs sampled |
-| quadratic | 3,332,029 ops/sec | ±0.61% | 96 runs sampled |
-| harmonic | 3,255,164 ops/sec | ±0.34% | 92 runs sampled |
+| arithmetic | 57,792,507 ops/sec | ±0.06% | 93 runs sampled |
+| quadratic | 31,500,158 ops/sec | ±0.36% | 97 runs sampled |
+| harmonic | 108,820,860 ops/sec | ±0.49% | 93 runs sampled |
 
-Tested with the benchmark suite inside the test folder on a PC with an Intel Core i7-4790K @ 4.40 GHz
+Tested with the benchmark suite inside the package on a PC with an Intel Core i7-4790K @ 4.40 GHz using Node.js v10.13.0.
 
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
