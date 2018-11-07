@@ -12,6 +12,9 @@ suite.add('arithmetic', function () {
     .add('harmonic', function () {
         arrayMeans.harmonic(dummyArray);
     })
+    .add('geometric', function () {
+        arrayMeans.geometric(dummyArray);
+    })
     .on('cycle', function (event) {
         console.log(String(event.target));
     })

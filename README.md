@@ -32,9 +32,10 @@ var hmean = arrayMeans.harmonic([10, 25, 50]);
 ## Benchmark
 | Algorithm | Operations per second | Tolerance | Number of runs |
 | :-- | :-- | :-- | :-- |
-| arithmetic | 57,792,507 ops/sec | ±0.06% | 93 runs sampled |
-| quadratic | 31,500,158 ops/sec | ±0.36% | 97 runs sampled |
-| harmonic | 108,820,860 ops/sec | ±0.49% | 93 runs sampled |
+| arithmetic | 57,677,242 ops/sec | ±0.09% | 92 runs sampled |
+| quadratic | 31,527,477 ops/sec | ±0.04% | 96 runs sampled |
+| harmonic | 107,957,742 ops/sec | ±0.39% | 95 runs sampled |
+| geometric | 122,245,766 ops/sec | ±0.22%| 95 runs sampled |
 
 Tested with the benchmark suite inside the package on a PC with an Intel Core i7-4790K @ 4.40 GHz using Node.js v10.13.0.
 
