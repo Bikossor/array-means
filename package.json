@@ -4,7 +4,7 @@
   "description": "Calculates various averages of an array",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "benchmark": "node ./test/benchmark.js"
   },
   "repository": {
