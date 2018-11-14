@@ -12,10 +12,22 @@ test(`Arithmetic mean of "dummyArray" should be "${arithmeticResult}"`, () => {
     ).toBe(arithmeticResult);
 });
 
+test(`Arithmetic mean of an string should throw`, () => {
+    expect(() => {
+        arrayMeans.arithmetic("Hello World")
+    }).toThrow();
+});
+
 test(`Quadratic mean of "dummyArray" should be "${quadraticResult}"`, () => {
     expect(
         arrayMeans.quadratic(dummyArray)
     ).toBe(quadraticResult);
+});
+
+test(`Quadratic mean of an string should throw`, () => {
+    expect(() => {
+        arrayMeans.quadratic("Hello World")
+    }).toThrow();
 });
 
 test(`Harmonic mean of "dummyArray" should be "${harmonicResult}"`, () => {
@@ -24,8 +36,20 @@ test(`Harmonic mean of "dummyArray" should be "${harmonicResult}"`, () => {
     ).toBe(harmonicResult);
 });
 
+test(`Harmonic mean of an string should throw`, () => {
+    expect(() => {
+        arrayMeans.harmonic("Hello World")
+    }).toThrow();
+});
+
 test(`Geometric mean of "dummyArray" should be "${geometricResult}"`, () => {
     expect(
         arrayMeans.geometric(dummyArray)
     ).toBe(geometricResult);
+});
+
+test(`Geometric mean of an string should throw`, () => {
+    expect(() => {
+        arrayMeans.geometric("Hello World")
+    }).toThrow();
 });
