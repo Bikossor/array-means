@@ -20,14 +20,14 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">82.61% </span>
+        <span class="strong">100% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>19/23</span>
+        <span class='fraction'>23/23</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">58.33% </span>
+        <span class="strong">91.67% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>7/12</span>
+        <span class='fraction'>11/12</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
@@ -35,9 +35,9 @@
         <span class='fraction'>8/8</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">82.61% </span>
+        <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>19/23</span>
+        <span class='fraction'>23/23</span>
       </div>
     </div>
   </div>
@@ -124,8 +124,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -139,8 +139,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -154,8 +154,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -165,8 +165,8 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -181,7 +181,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
  * @name array-means
- * @version 1.4.0
+ * @version 1.4.1
  * @description Calculates various averages of an array
  * @author André Lichtenthäler
  * @license GPL-3.0
@@ -192,8 +192,8 @@ var arrayMeans = {
      * @returns {Number} The arithmetic mean
      */
     arithmetic: function (arr) {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (!Array.isArray(arr)) {
-<span class="cstat-no" title="statement not covered" >            throw new Error("Argument is not an array!");</span>
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
         }
 &nbsp;
         var result = arr.reduce(function(a, b) {
@@ -207,8 +207,8 @@ var arrayMeans = {
      * @returns {Number} The quadratic mean
      */
     quadratic: function(arr) {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (!Array.isArray(arr)) {
-<span class="cstat-no" title="statement not covered" >            throw new Error("Argument is not an array!");</span>
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
         }
 &nbsp;
         var result = arr.reduce(function(a, b) {
@@ -222,8 +222,8 @@ var arrayMeans = {
      * @returns {Number} The harmonic mean
      */
     harmonic: function(arr) {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (!Array.isArray(arr)) {
-<span class="cstat-no" title="statement not covered" >            throw new Error("Argument is not an array!");</span>
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
         }
 &nbsp;
         var result = arr.reduce(function(a, b) {
@@ -233,8 +233,8 @@ var arrayMeans = {
         return arr.length / result;
     },
     geometric: function(arr) {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (!Array.isArray(arr)) {
-<span class="cstat-no" title="statement not covered" >            throw new Error("Argument is not an array!");</span>
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
         }
 &nbsp;
         var result = arr.reduce(function(a, b) {
@@ -253,7 +253,7 @@ var arrayMeans = {
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 14 2018 21:52:16 GMT+0100 (GMT+01:00)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 14 2018 22:36:25 GMT+0100 (GMT+01:00)
 </div>
 </div>
 <script src="prettify.js"></script>
