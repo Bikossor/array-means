@@ -3,6 +3,12 @@ Calculates various averages of an array
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/57813ca8a5d943ecabbe8decc36d04da)](https://www.codacy.com/app/Bikossor/array-means?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bikossor/array-means&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/Bikossor/array-means.svg?branch=develop)](https://travis-ci.org/Bikossor/array-means)
+[![codecov](https://codecov.io/gh/Bikossor/array-means/branch/develop/graph/badge.svg)](https://codecov.io/gh/Bikossor/array-means)
+![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/array-means.svg)
+![npm](https://img.shields.io/npm/dm/array-means.svg)
+![GitHub issues](https://img.shields.io/github/issues/bikossor/array-means.svg)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/bikossor/array-means.svg)
+![GitHub](https://img.shields.io/github/license/bikossor/array-means.svg)
 
 ## Installing
 ### Node.js environment
