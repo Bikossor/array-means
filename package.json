@@ -4,7 +4,7 @@
   "description": "Calculates various averages of an array",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "benchmark": "node ./test/benchmark.js"
   },
   "repository": {
@@ -28,5 +28,9 @@
   "devDependencies": {
     "benchmark": "^2.1.4",
     "jest": "^23.6.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
