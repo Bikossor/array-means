@@ -33,6 +33,9 @@ var qmean = arrayMeans.quadratic([10, 25, 50]);
 
 var hmean = arrayMeans.harmonic([10, 25, 50]);
 // hmean => 18.75
+
+var gmean = arrayMeans.geometric([10, 25, 50]);
+// gmean => 23,20794417
 ```
 
 ## Benchmark
