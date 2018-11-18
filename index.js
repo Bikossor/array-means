@@ -61,7 +61,22 @@ var arrayMeans = {
         });
 
         return Math.pow(result, 1 / arr.length);
-    }
+    },
+    /**
+     * @param {Array<Number>} arr - The array of which the cubic mean is calculated on
+     * @returns {Number} The cubic mean
+     */
+    cubic: function(arr) {
+        if (!Array.isArray(arr)) {
+            throw new Error("Argument is not an array!");
+        }
+
+        var result = arr.reduce(function(a, b) {
+            return a + Math.pow(b, 3);
+        }, 0);
+
+        return Math.pow(result / arr.length, 1 / 3);
+    },
 };
 
 if (typeof module !== "undefined" && module.exports) {

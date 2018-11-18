@@ -36,6 +36,9 @@ var hmean = arrayMeans.harmonic([10, 25, 50]);
 
 var gmean = arrayMeans.geometric([10, 25, 50]);
 // gmean => 23,20794417
+
+var cmean = arrayMeans.cubic([10, 25, 50]);
+// cmean => 36,14150411
 ```
 
 ## Benchmark
@@ -45,6 +48,7 @@ var gmean = arrayMeans.geometric([10, 25, 50]);
 | quadratic | 31,527,477 ops/sec | ±0.04% | 96 runs sampled |
 | harmonic | 107,957,742 ops/sec | ±0.39% | 95 runs sampled |
 | geometric | 122,245,766 ops/sec | ±0.22%| 95 runs sampled |
+| cubic | 106,860,481 ops/sec | ±0.44% | 92 runs sampled |
 
 Tested with the benchmark suite inside the package on a PC with an Intel Core i7-4790K @ 4.40 GHz using Node.js v10.13.0.
 

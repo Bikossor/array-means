@@ -15,6 +15,9 @@ suite.add('arithmetic', function () {
     .add('geometric', function () {
         arrayMeans.geometric(dummyArray);
     })
+    .add('cubic', function () {
+        arrayMeans.cubic(dummyArray);
+    })
     .on('cycle', function (event) {
         console.log(String(event.target));
     })

@@ -5,6 +5,7 @@ const arithmeticResult = 511.7;
 const quadraticResult = 589.5979138362007;
 const harmonicResult = 200.6986989307875;
 const geometricResult = 375.5261036961228;
+const cubicResult = 638.3780301575599;
 
 test(`Arithmetic mean of "dummyArray" should be "${arithmeticResult}"`, () => {
     expect(
@@ -51,5 +52,17 @@ test(`Geometric mean of "dummyArray" should be "${geometricResult}"`, () => {
 test(`Geometric mean of an string should throw`, () => {
     expect(() => {
         arrayMeans.geometric("Hello World")
+    }).toThrow();
+});
+
+test(`Cubic mean of "dummyArray" should be "${cubicResult}"`, () => {
+    expect(
+        arrayMeans.cubic(dummyArray)
+    ).toBe(cubicResult);
+});
+
+test(`Cubic mean of an string should throw`, () => {
+    expect(() => {
+        arrayMeans.cubic("Hello World")
     }).toThrow();
 });
