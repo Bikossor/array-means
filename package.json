@@ -1,6 +1,6 @@
 {
   "name": "array-means",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Calculates various averages of an array",
   "main": "index.js",
   "scripts": {
