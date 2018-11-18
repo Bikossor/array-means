@@ -26,18 +26,23 @@ Download the latest version of array-means [here](https://github.com/Bikossor/ar
 const arrayMeans = require("array-means");
 
 var amean = arrayMeans.arithmetic([10, 25, 50]);
+var amean = arrayMeans.a([10, 25, 50]);
 // amean => 28.333333333333332
 
 var qmean = arrayMeans.quadratic([10, 25, 50]);
+var qmean = arrayMeans.q([10, 25, 50]);
 // qmean => 32.78719262151
 
 var hmean = arrayMeans.harmonic([10, 25, 50]);
+var hmean = arrayMeans.h([10, 25, 50]);
 // hmean => 18.75
 
 var gmean = arrayMeans.geometric([10, 25, 50]);
+var gmean = arrayMeans.g([10, 25, 50]);
 // gmean => 23,20794417
 
 var cmean = arrayMeans.cubic([10, 25, 50]);
+var cmean = arrayMeans.c([10, 25, 50]);
 // cmean => 36,14150411
 ```
 
