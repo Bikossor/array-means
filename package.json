@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Bikossor/array-means#readme",
   "devDependencies": {
-    "benchmark": "^2.1.4",
-    "jest": "^23.6.0"
+    "benchmark": "2.1.4",
+    "jest": "24.7.1"
   }
 }
