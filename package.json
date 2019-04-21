@@ -28,9 +28,5 @@
   "devDependencies": {
     "benchmark": "^2.1.4",
     "jest": "^23.6.0"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
   }
 }
