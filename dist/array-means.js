@@ -1,3 +1,4 @@
+"use strict";
 /**
  * @name array-means
  * @version 1.5.1
