@@ -19,7 +19,12 @@
     "means",
     "average",
     "averages",
-    "avg"
+    "avg",
+    "arithmetic",
+    "quadratic",
+    "harmonic",
+    "geometric",
+    "cubic"
   ],
   "author": "André Lichtenthäler",
   "license": "GPL-3.0",
