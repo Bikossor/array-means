@@ -1,11 +1,13 @@
 {
   "name": "array-means",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Calculates various averages of an array",
-  "main": "index.js",
+  "main": "./dist/array-means.js",
+  "types": "./dist/array-means.d.ts",
   "scripts": {
     "test": "jest",
-    "benchmark": "node ./test/benchmark.js"
+    "benchmark": "node ./test/benchmark.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,8 @@
   "devDependencies": {
     "benchmark": "2.1.4",
     "jest": "24.7.1"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.12"
   }
 }
