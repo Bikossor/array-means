@@ -7,31 +7,31 @@ suite
     .add('arithmetic', function () {
         arrayMeans.arithmetic(dummyArray);
     })
-    .add('arithmetic shortcut', function () {
+    .add('arithmetic (shortcut)', function () {
         arrayMeans.a(dummyArray);
     })
     .add('quadratic', function () {
         arrayMeans.quadratic(dummyArray);
     })
-    .add('quadratic shortcut', function () {
+    .add('quadratic (shortcut)', function () {
         arrayMeans.q(dummyArray);
     })
     .add('harmonic', function () {
         arrayMeans.harmonic(dummyArray);
     })
-    .add('harmonic', function () {
+    .add('harmonic (shortcut)', function () {
         arrayMeans.h(dummyArray);
     })
     .add('geometric', function () {
         arrayMeans.geometric(dummyArray);
     })
-    .add('geometric', function () {
+    .add('geometric (shortcut)', function () {
         arrayMeans.g(dummyArray);
     })
     .add('cubic', function () {
         arrayMeans.cubic(dummyArray);
     })
-    .add('cubic', function () {
+    .add('cubic (shortcut)', function () {
         arrayMeans.c(dummyArray);
     })
     .on('cycle', function (event) {
