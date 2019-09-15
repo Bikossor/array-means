@@ -24,7 +24,10 @@
     "quadratic",
     "harmonic",
     "geometric",
-    "cubic"
+    "cubic",
+    "math",
+    "number",
+    "numbers"
   ],
   "author": "André Lichtenthäler",
   "license": "GPL-3.0",
