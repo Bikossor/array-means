@@ -21,7 +21,7 @@ var arrayMeans = /** @class */ (function () {
      * @returns {number} The arithmetic mean
     */
     arrayMeans.arithmetic = function (arr) {
-        if (!(arr instanceof Array)) {
+        if (!Array.isArray(arr)) {
             throw new Error("Argument is not an array!");
         }
         var result = arr.reduce(function (a, b) {

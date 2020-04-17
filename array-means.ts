@@ -18,7 +18,7 @@ class arrayMeans {
      * @returns {number} The arithmetic mean
     */
     static arithmetic(arr: number[]): number {
-        if (!(arr instanceof Array)) {
+        if (!Array.isArray(arr)) {
             throw new Error("Argument is not an array!");
         }
 
