@@ -1,6 +1,6 @@
 /**
  * @name array-means
- * @version 1.7.0
+ * @version 1.7.1
  * @description Calculates various averages of an array
  * @author André Lichtenthäler
  * @license GPL-3.0
