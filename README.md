@@ -24,23 +24,38 @@ Download the latest version of array-means [here](https://github.com/Bikossor/ar
 
 ```javascript
 const arrayMeans = require("array-means");
+```
 
+### Arithmetic mean ([Wikipedia](https://en.wikipedia.org/wiki/Arithmetic_mean)):
+```javascript
 var amean = arrayMeans.arithmetic([10, 25, 50]);
 var amean = arrayMeans.a([10, 25, 50]);
 // amean => 28.333333333333332
+```
 
+### Quadratic mean ([Wikipedia](https://en.wikipedia.org/wiki/Quadratic_mean)):
+```javascript
 var qmean = arrayMeans.quadratic([10, 25, 50]);
 var qmean = arrayMeans.q([10, 25, 50]);
 // qmean => 32.78719262151
+```
 
+### Harmonic mean ([Wikipedia](https://en.wikipedia.org/wiki/Harmonic_mean)):
+```javascript
 var hmean = arrayMeans.harmonic([10, 25, 50]);
 var hmean = arrayMeans.h([10, 25, 50]);
 // hmean => 18.75
+```
 
+### Geometric mean ([Wikipedia](https://en.wikipedia.org/wiki/Geometric_mean)):
+```javascript
 var gmean = arrayMeans.geometric([10, 25, 50]);
 var gmean = arrayMeans.g([10, 25, 50]);
 // gmean => 23.20794417
+```
 
+### Cubic mean ([Wikipedia](https://en.wikipedia.org/wiki/Cubic_mean)):
+```javascript
 var cmean = arrayMeans.cubic([10, 25, 50]);
 var cmean = arrayMeans.c([10, 25, 50]);
 // cmean => 36.14150411
