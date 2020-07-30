@@ -39,11 +39,11 @@ var hmean = arrayMeans.h([10, 25, 50]);
 
 var gmean = arrayMeans.geometric([10, 25, 50]);
 var gmean = arrayMeans.g([10, 25, 50]);
-// gmean => 23,20794417
+// gmean => 23.20794417
 
 var cmean = arrayMeans.cubic([10, 25, 50]);
 var cmean = arrayMeans.c([10, 25, 50]);
-// cmean => 36,14150411
+// cmean => 36.14150411
 ```
 
 ## Benchmark
