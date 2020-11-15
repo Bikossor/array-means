@@ -19,18 +19,6 @@ describe("Arithmetic tests", () => {
             arrayMeans.arithmetic("Hello World")
         }).toThrow();
     });
-
-    test(`Arithmetic mean by shortcut of "dummyArray" should be "${arithmeticResult}"`, () => {
-        expect(
-            arrayMeans.a(dummyArray)
-        ).toBe(arithmeticResult);
-    });
-
-    test(`Arithmetic mean by shortcut of an string should throw`, () => {
-        expect(() => {
-            arrayMeans.a("Hello World")
-        }).toThrow();
-    });
 });
 
 describe("Quadratic tests", () => {
@@ -43,18 +31,6 @@ describe("Quadratic tests", () => {
     test(`Quadratic mean of an string should throw`, () => {
         expect(() => {
             arrayMeans.quadratic("Hello World")
-        }).toThrow();
-    });
-
-    test(`Quadratic mean by shortcut of "dummyArray" should be "${quadraticResult}"`, () => {
-        expect(
-            arrayMeans.q(dummyArray)
-        ).toBe(quadraticResult);
-    });
-
-    test(`Quadratic mean by shortcut of an string should throw`, () => {
-        expect(() => {
-            arrayMeans.q("Hello World")
         }).toThrow();
     });
 });
@@ -71,18 +47,6 @@ describe("Harmonic tests", () => {
             arrayMeans.harmonic("Hello World")
         }).toThrow();
     });
-
-    test(`Harmonic mean by shortcut of "dummyArray" should be "${harmonicResult}"`, () => {
-        expect(
-            arrayMeans.h(dummyArray)
-        ).toBe(harmonicResult);
-    });
-
-    test(`Harmonic mean by shortcut of an string should throw`, () => {
-        expect(() => {
-            arrayMeans.h("Hello World")
-        }).toThrow();
-    });
 });
 
 describe("Geometric tests", () => {
@@ -97,18 +61,6 @@ describe("Geometric tests", () => {
             arrayMeans.geometric("Hello World")
         }).toThrow();
     });
-
-    test(`Geometric mean by shortcut of "dummyArray" should be "${geometricResult}"`, () => {
-        expect(
-            arrayMeans.g(dummyArray)
-        ).toBe(geometricResult);
-    });
-
-    test(`Geometric mean by shortcut of an string should throw`, () => {
-        expect(() => {
-            arrayMeans.g("Hello World")
-        }).toThrow();
-    });
 });
 
 describe("Cubic tests", () => {
@@ -121,18 +73,6 @@ describe("Cubic tests", () => {
     test(`Cubic mean of an string should throw`, () => {
         expect(() => {
             arrayMeans.cubic("Hello World")
-        }).toThrow();
-    });
-
-    test(`Cubic mean by shortcut of "dummyArray" should be "${cubicResult}"`, () => {
-        expect(
-            arrayMeans.c(dummyArray)
-        ).toBe(cubicResult);
-    });
-
-    test(`Cubic mean by shortcut of an string should throw`, () => {
-        expect(() => {
-            arrayMeans.c("Hello World")
         }).toThrow();
     });
 });
