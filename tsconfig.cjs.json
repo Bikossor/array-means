@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "strict": true,
+        "types": [
+            "@types/node"
+        ],
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "dist/cjs",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true
+    }
+}

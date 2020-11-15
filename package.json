@@ -2,12 +2,13 @@
   "name": "array-means",
   "version": "1.7.1",
   "description": "Calculates various averages of an array",
-  "main": "./dist/array-means.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "types": "./dist/array-means.d.ts",
   "scripts": {
     "test": "jest",
     "benchmark": "node ./test/benchmark.js",
-    "build": "tsc"
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json"
   },
   "repository": {
     "type": "git",

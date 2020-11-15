@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "ESNext",
         "strict": true,
         "types": [
             "@types/node"
         ],
-        "module": "commonjs",
+        "module": "ESNext",
         "declaration": true,
-        "outDir": "dist",
+        "outDir": "dist/esm",
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true
