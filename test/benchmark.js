@@ -1,38 +1,29 @@
 const dummyArray = [140, 149, 895, 28, 716, 826, 539, 518, 59, 463, 967, 664, 170, 623, 764, 195, 380, 710, 549, 879];
-const arrayMeans = require('../dist/array-means');
+const {
+    arithmetic,
+    cubic,
+    geometric,
+    harmonic,
+    quadratic
+} = require('../dist/index.js');
 const benchmark = require('benchmark');
 const suite = new benchmark.Suite;
 
 suite
     .add('arithmetic', function () {
-        arrayMeans.arithmetic(dummyArray);
-    })
-    .add('arithmetic (shortcut)', function () {
-        arrayMeans.a(dummyArray);
+        arithmetic(dummyArray);
     })
     .add('quadratic', function () {
-        arrayMeans.quadratic(dummyArray);
-    })
-    .add('quadratic (shortcut)', function () {
-        arrayMeans.q(dummyArray);
+        quadratic(dummyArray);
     })
     .add('harmonic', function () {
-        arrayMeans.harmonic(dummyArray);
-    })
-    .add('harmonic (shortcut)', function () {
-        arrayMeans.h(dummyArray);
+        harmonic(dummyArray);
     })
     .add('geometric', function () {
-        arrayMeans.geometric(dummyArray);
-    })
-    .add('geometric (shortcut)', function () {
-        arrayMeans.g(dummyArray);
+        geometric(dummyArray);
     })
     .add('cubic', function () {
-        arrayMeans.cubic(dummyArray);
-    })
-    .add('cubic (shortcut)', function () {
-        arrayMeans.c(dummyArray);
+        cubic(dummyArray);
     })
     .on('cycle', function (event) {
         console.log(String(event.target));
