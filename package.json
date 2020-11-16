@@ -1,6 +1,6 @@
 {
   "name": "array-means",
-  "version": "1.7.1",
+  "version": "2.0.0",
   "description": "Calculates various averages of an array",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
