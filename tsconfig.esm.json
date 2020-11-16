@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "strict": true,
+        "types": [
+            "@types/node"
+        ],
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist/esm",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true
+    }
+}
