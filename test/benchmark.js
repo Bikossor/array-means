@@ -5,7 +5,7 @@ const {
     geometric,
     harmonic,
     quadratic
-} = require('../dist/index.js');
+} = require('../dist/cjs/index.js');
 const benchmark = require('benchmark');
 const suite = new benchmark.Suite;
 

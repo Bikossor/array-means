@@ -4,7 +4,7 @@ const {
     geometric,
     harmonic,
     quadratic
-} = require('../dist/index.js');
+} = require('../dist/cjs/index.js');
 const dummyArray = [140, 149, 895, 28, 716, 826, 539, 518, 59, 463, 967, 664, 170, 623, 764, 195, 380, 710, 549, 879];
 
 const arithmeticResult = 511.7;
