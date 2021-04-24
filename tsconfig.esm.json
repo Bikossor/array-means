@@ -3,9 +3,11 @@
         "target": "ESNext",
         "strict": true,
         "types": [
-            "@types/node"
+            "@types/node",
+            "@types/jest",
         ],
         "module": "ESNext",
+        "moduleResolution": "Node",
         "declaration": true,
         "declarationDir": "dist/types",
         "outDir": "dist/esm",
