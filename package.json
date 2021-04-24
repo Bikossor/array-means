@@ -1,14 +1,17 @@
 {
   "name": "array-means",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Calculates various averages of an array",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "types": "./dist/types",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "jest",
     "benchmark": "node ./test/benchmark.js",
-    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json"
+    "build": "gulp",
+    "prepare": "gulp"
   },
   "repository": {
     "type": "git",
@@ -39,6 +42,10 @@
   "devDependencies": {
     "@types/node": "^14.14.7",
     "benchmark": "2.1.4",
-    "jest": "^26.6.3"
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jest": "^26.6.3",
+    "typescript": "^4.2.4"
   }
 }
