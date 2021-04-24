@@ -22,6 +22,7 @@ describe("Arithmetic tests", () => {
 
     test(`Arithmetic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             arithmetic("Hello World")
         }).toThrow();
     });
@@ -36,6 +37,7 @@ describe("Quadratic tests", () => {
 
     test(`Quadratic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             quadratic("Hello World")
         }).toThrow();
     });
@@ -50,6 +52,7 @@ describe("Harmonic tests", () => {
 
     test(`Harmonic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             harmonic("Hello World")
         }).toThrow();
     });
@@ -64,6 +67,7 @@ describe("Geometric tests", () => {
 
     test(`Geometric mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             geometric("Hello World")
         }).toThrow();
     });
@@ -78,6 +82,7 @@ describe("Cubic tests", () => {
 
     test(`Cubic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             cubic("Hello World")
         }).toThrow();
     });
