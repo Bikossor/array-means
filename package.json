@@ -4,6 +4,9 @@
   "description": "Calculates various averages of an array",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "jest",
     "benchmark": "node ./test/benchmark.js",
