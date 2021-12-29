@@ -28,7 +28,8 @@ const {
     cubic,
     geometric,
     harmonic,
-    quadratic
+    quadratic,
+    median,
 } = require('array-means');
 ```
 
@@ -60,6 +61,12 @@ var gmean = geometric([10, 25, 50]);
 ```javascript
 var cmean = cubic([10, 25, 50]);
 // cmean => 36.14150411
+```
+
+### Median ([Wikipedia](https://en.wikipedia.org/wiki/Median)):
+```javascript
+var medianResult = median([10, 25, 50]);
+// medianResult => 25
 ```
 
 ## Benchmark
