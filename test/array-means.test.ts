@@ -1,10 +1,11 @@
-const {
+import {
     arithmetic,
     cubic,
     geometric,
     harmonic,
-    quadratic
-} = require('../dist/cjs/index.js');
+    quadratic,
+    median,
+} from "../src";
 const dummyArray = [140, 149, 895, 28, 716, 826, 539, 518, 59, 463, 967, 664, 170, 623, 764, 195, 380, 710, 549, 879];
 
 const arithmeticResult = 511.7;
@@ -12,6 +13,7 @@ const quadraticResult = 589.5979138362007;
 const harmonicResult = 200.6986989307875;
 const geometricResult = 375.52610369612273;
 const cubicResult = 638.3780301575599;
+const medianResult = 544;
 
 describe("Arithmetic tests", () => {
     test(`Arithmetic mean of "dummyArray" should be "${arithmeticResult}"`, () => {
@@ -22,6 +24,7 @@ describe("Arithmetic tests", () => {
 
     test(`Arithmetic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             arithmetic("Hello World")
         }).toThrow();
     });
@@ -36,6 +39,7 @@ describe("Quadratic tests", () => {
 
     test(`Quadratic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             quadratic("Hello World")
         }).toThrow();
     });
@@ -50,6 +54,7 @@ describe("Harmonic tests", () => {
 
     test(`Harmonic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             harmonic("Hello World")
         }).toThrow();
     });
@@ -64,6 +69,7 @@ describe("Geometric tests", () => {
 
     test(`Geometric mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             geometric("Hello World")
         }).toThrow();
     });
@@ -78,7 +84,23 @@ describe("Cubic tests", () => {
 
     test(`Cubic mean of an string should throw`, () => {
         expect(() => {
+            // @ts-ignore
             cubic("Hello World")
+        }).toThrow();
+    });
+});
+
+describe("Median tests", () => {
+    test(`Median of "dummyArray" should be "${medianResult}"`, () => {
+        expect(
+            median(dummyArray)
+        ).toBe(medianResult);
+    });
+
+    test(`Median of an string should throw`, () => {
+        expect(() => {
+            // @ts-ignore
+            median("Hello World")
         }).toThrow();
     });
 });

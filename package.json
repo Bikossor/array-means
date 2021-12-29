@@ -1,6 +1,6 @@
 {
   "name": "array-means",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Calculates various averages of an array",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -40,7 +40,12 @@
   },
   "homepage": "https://github.com/Bikossor/array-means#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.14.7",
+    "babel-jest": "^26.6.3",
     "benchmark": "2.1.4",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
