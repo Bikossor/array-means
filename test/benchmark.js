@@ -4,7 +4,8 @@ const {
     cubic,
     geometric,
     harmonic,
-    quadratic
+    quadratic,
+    median,
 } = require('../dist/cjs/index.js');
 const benchmark = require('benchmark');
 const suite = new benchmark.Suite;
@@ -24,6 +25,9 @@ suite
     })
     .add('cubic', function () {
         cubic(dummyArray);
+    })
+    .add('median', function () {
+        median(dummyArray);
     })
     .on('cycle', function (event) {
         console.log(String(event.target));
