@@ -1,9 +1,10 @@
 {
   "name": "array-means",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Calculates various averages of an array",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/cjs/src/index.js",
+  "types": "./dist/cjs/src/index.d.ts",
+  "module": "./dist/esm/src/index.js",
   "files": [
     "dist/"
   ],
