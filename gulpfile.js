@@ -14,7 +14,7 @@ gulp.task("clean-up", function () {
 gulp.task("build-typescript", function () {
   return merge([
     projectStream.js.pipe(gulp.dest("dist/")),
-    projectStream.dts.pipe(gulp.dest("dist/"))
+    projectStream.dts.pipe(gulp.dest("dist/")),
   ]);
 });
 
