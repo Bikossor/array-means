@@ -3,28 +3,19 @@ const ts = require("gulp-typescript");
 const del = require("del");
 const merge = require("merge2");
 
-const tsProjectCjs = ts.createProject("tsconfig.cjs.json");
-const tsProjectEsm = ts.createProject("tsconfig.esm.json");
+const tsProject = ts.createProject("tsconfig.json");
 
-const streamCjs = tsProjectCjs.src().pipe(tsProjectCjs());
-const streamEsm = tsProjectEsm.src().pipe(tsProjectEsm());
+const projectStream = tsProject.src().pipe(tsProject());
 
 gulp.task("clean-up", function () {
   return del("dist/**", { force: true });
 });
 
-gulp.task("build-typescript-to-cjs", function () {
+gulp.task("build-typescript", function () {
   return merge([
-    streamCjs.js.pipe(gulp.dest("dist/cjs")),
-    streamCjs.dts.pipe(gulp.dest("dist/cjs"))
+    projectStream.js.pipe(gulp.dest("dist/")),
+    projectStream.dts.pipe(gulp.dest("dist/"))
   ]);
 });
 
-gulp.task("build-typescript-to-esm", function () {
-  return merge([
-    streamEsm.js.pipe(gulp.dest("dist/esm")),
-    streamEsm.dts.pipe(gulp.dest("dist/esm"))
-  ]);
-});
-
-gulp.task("default", gulp.series("clean-up", "build-typescript-to-cjs", "build-typescript-to-esm"));
+gulp.task("default", gulp.series("clean-up", "build-typescript"));

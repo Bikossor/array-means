@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "strict": true,
+    "types": ["@types/node", "@types/jest"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true
+  },
+  "include": ["src/"],
+  "exclude": ["**/*.test.ts", "dist/", "test/"]
+}
