@@ -11,7 +11,9 @@
     "test": "jest",
     "benchmark": "node ./test/benchmark.js",
     "build": "gulp",
-    "prepare": "gulp"
+    "prepare": "gulp",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
