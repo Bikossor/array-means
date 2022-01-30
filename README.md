@@ -23,7 +23,7 @@
 ### Node.js environment
 
 ```
-npm i array-means --save
+npm i array-means
 ```
 
 ### Browser environment
