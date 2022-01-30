@@ -1,15 +1,22 @@
-# array-means
-
-Calculates various averages of an array
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/57813ca8a5d943ecabbe8decc36d04da)](https://www.codacy.com/app/Bikossor/array-means?utm_source=github.com&utm_medium=referral&utm_content=Bikossor/array-means&utm_campaign=Badge_Grade)
-[![Build Status](https://github.com/Bikossor/Rudus/actions/workflows/node.js.yml/badge.svg)](https://github.com/Bikossor/array-means/actions/workflows/node.js.yml)
-[![codecov](https://codecov.io/gh/Bikossor/array-means/branch/develop/graph/badge.svg)](https://codecov.io/gh/Bikossor/array-means)
-![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/array-means.svg)
-![npm](https://img.shields.io/npm/dm/array-means.svg)
-![GitHub issues](https://img.shields.io/github/issues/bikossor/array-means.svg)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/bikossor/array-means.svg)
-![GitHub](https://img.shields.io/github/license/bikossor/array-means.svg)
+<div align="center">
+  <h1>array-means</h1>
+  <p>Calculates various averages of an array</p>
+  <!-- Badges -->
+  <a href="https://www.codacy.com/app/Bikossor/array-means?utm_source=github.com&utm_medium=referral&utm_content=Bikossor/array-means&utm_campaign=Badge_Grade">
+    <img src="https://api.codacy.com/project/badge/Grade/57813ca8a5d943ecabbe8decc36d04da" />
+  </a>
+  <a href="https://github.com/Bikossor/array-means/actions/workflows/node.js.yml">
+    <img src="https://github.com/Bikossor/Rudus/actions/workflows/node.js.yml/badge.svg" />
+  </a>
+  <a href="https://codecov.io/gh/Bikossor/array-means">
+    <img src="https://codecov.io/gh/Bikossor/array-means/branch/develop/graph/badge.svg" />
+  </a>
+  <img src="https://img.shields.io/bundlephobia/minzip/array-means.svg" />
+  <img src="https://img.shields.io/npm/dm/array-means.svg" />
+  <img src="https://img.shields.io/github/issues/bikossor/array-means.svg" />
+  <img src="https://img.shields.io/github/issues-closed/bikossor/array-means.svg" />
+  <img src="https://img.shields.io/github/license/bikossor/array-means.svg" />
+</div>
 
 ## Installing
 
