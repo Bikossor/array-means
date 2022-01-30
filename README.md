@@ -107,14 +107,14 @@ var medianResult = median([10, 25, 50]);
 
 ## Benchmarks
 
-| Algorithm  | Operations per second | Tolerance | Number of runs  |
-| :--------- | :-------------------- | :-------- | :-------------- |
-| arithmetic | 90,273,949 ops/sec    | ±0.40%    | 92 runs sampled |
-| quadratic  | 45,955,194 ops/sec    | ±1.35%    | 96 runs sampled |
-| harmonic   | 142,704,156 ops/sec   | ±0.33%    | 95 runs sampled |
-| geometric  | 116,823,047 ops/sec   | ±0.20%    | 95 runs sampled |
-| cubic      | 786,168 ops/sec       | ±0.12%    | 92 runs sampled |
-| median     | 3,392,087 ops/sec     | ±0.21%    | 92 runs sampled |
+| Algorithm  | Operations per second | Tolerance |
+| :--------- | :-------------------- | :-------- |
+| arithmetic | 90,273,949 ops/sec    | ±0.40%    |
+| quadratic  | 45,955,194 ops/sec    | ±1.35%    |
+| harmonic   | 142,704,156 ops/sec   | ±0.33%    |
+| geometric  | 116,823,047 ops/sec   | ±0.20%    |
+| cubic      | 786,168 ops/sec       | ±0.12%    |
+| median     | 3,392,087 ops/sec     | ±0.21%    |
 
 _Tested on an AMD Ryzen 7 5800X using Node.js v16.13.2 on Windows 10 (21H1)_
 
