@@ -105,7 +105,7 @@ var medianResult = median([10, 25, 50]);
 // medianResult => 25
 ```
 
-## Benchmark
+## Benchmarks
 
 | Algorithm  | Operations per second | Tolerance | Number of runs  |
 | :--------- | :-------------------- | :-------- | :-------------- |
