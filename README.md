@@ -116,7 +116,7 @@ var medianResult = median([10, 25, 50]);
 | cubic      | 786,168 ops/sec       | ±0.12%    | 92 runs sampled |
 | median     | 3,392,087 ops/sec     | ±0.21%    | 92 runs sampled |
 
-Tested with the benchmark suite inside the package on a PC with an AMD Ryzen 7 5800X using Node.js v16.13.2 on Windows 10 (21H1).
+_Tested on an AMD Ryzen 7 5800X using Node.js v16.13.2 on Windows 10 (21H1)_
 
 ## Contributing
 
