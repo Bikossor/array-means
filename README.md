@@ -45,43 +45,43 @@ const {
 } = require("array-means");
 ```
 
-### Arithmetic mean ([Wikipedia](https://en.wikipedia.org/wiki/Arithmetic_mean)):
-
+### Arithmetic mean
+[Wikipedia article of Arithmetic mean](https://en.wikipedia.org/wiki/Arithmetic_mean)
 ```javascript
 var amean = arithmetic([10, 25, 50]);
 // amean => 28.333333333333332
 ```
 
-### Quadratic mean ([Wikipedia](https://en.wikipedia.org/wiki/Quadratic_mean)):
-
+### Quadratic mean
+[Wikipedia article of Quadratic mean](https://en.wikipedia.org/wiki/Quadratic_mean)
 ```javascript
 var qmean = quadratic([10, 25, 50]);
 // qmean => 32.78719262151
 ```
 
-### Harmonic mean ([Wikipedia](https://en.wikipedia.org/wiki/Harmonic_mean)):
-
+### Harmonic mean
+[Wikipedia article of Harmonic mean](https://en.wikipedia.org/wiki/Harmonic_mean)
 ```javascript
 var hmean = harmonic([10, 25, 50]);
 // hmean => 18.75
 ```
 
-### Geometric mean ([Wikipedia](https://en.wikipedia.org/wiki/Geometric_mean)):
-
+### Geometric mean
+[Wikipedia article of Geometric mean](https://en.wikipedia.org/wiki/Geometric_mean)
 ```javascript
 var gmean = geometric([10, 25, 50]);
 // gmean => 23.20794417
 ```
 
-### Cubic mean ([Wikipedia](https://en.wikipedia.org/wiki/Cubic_mean)):
-
+### Cubic mean
+[Wikipedia article of Cubic mean](https://en.wikipedia.org/wiki/Cubic_mean)
 ```javascript
 var cmean = cubic([10, 25, 50]);
 // cmean => 36.14150411
 ```
 
-### Median ([Wikipedia](https://en.wikipedia.org/wiki/Median)):
-
+### Median
+[Wikipedia article of Median](https://en.wikipedia.org/wiki/Median)
 ```javascript
 var medianResult = median([10, 25, 50]);
 // medianResult => 25
