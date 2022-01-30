@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/github/license/bikossor/array-means.svg" />
 </div>
 
-## Installing
+## Installation
 
 ### Node.js environment
 
