@@ -20,10 +20,16 @@
 
 ## Installation
 
-### Node.js environment
+For `Node.js` run the following command:
 
-```
+```sh
 npm i array-means
+```
+
+For `Yarn` run the following command:
+
+```sh
+yarn add array-means
 ```
 
 ### Browser environment
