@@ -1,6 +1,6 @@
 {
   "name": "array-means",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Calculates various averages of an array",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
