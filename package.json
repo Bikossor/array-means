@@ -1,6 +1,6 @@
 {
   "name": "array-means",
-  "version": "2.3.3",
+  "version": "0.0.0-development",
   "description": "Calculates various averages of an array",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,11 +14,12 @@
     "build": "gulp",
     "prepare": "gulp",
     "prettier:check": "npx prettier --check .",
-    "prettier:write": "npx prettier --write ."
+    "prettier:write": "npx prettier --write .",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bikossor/array-means.git"
+    "url": "https://github.com/Bikossor/array-means.git"
   },
   "keywords": [
     "array",
@@ -57,6 +58,7 @@
     "prettier": "2.5.1",
     "ts-jest": "^27.1.3",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "semantic-release": "^19.0.2"
   }
 }
