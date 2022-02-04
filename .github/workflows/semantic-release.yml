@@ -1,6 +1,8 @@
 name: semantic-release CI
 
-on: push
+on:
+  push:
+    branches: [master]
 
 jobs:
   test:
