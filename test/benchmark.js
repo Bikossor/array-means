@@ -9,7 +9,7 @@ const {
   harmonic,
   quadratic,
   median,
-} = require("../dist/cjs/index.js");
+} = require("../dist/index.js");
 const benchmark = require("benchmark");
 const suite = new benchmark.Suite();
 
