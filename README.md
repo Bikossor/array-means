@@ -135,4 +135,4 @@ See also the list of [contributors](https://github.com/bikossor/array-means/cont
 
 ## License
 
-This project is licensed under the GPL-3.0 License - see [here](LICENSE) for more details.
+This project is licensed under the MIT License - see [here](LICENSE) for more details.
