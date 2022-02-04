@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - bugfix/fix-semantic-release-workflow # just for testing
+
 jobs:
   release:
     name: Release
