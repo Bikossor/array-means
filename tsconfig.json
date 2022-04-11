@@ -4,6 +4,7 @@
     "strict": true,
     "types": ["@types/node", "@types/jest"],
     "module": "CommonJS",
+    "outDir": "dist/",
     "moduleResolution": "Node",
     "declaration": true,
     "noImplicitAny": true,
