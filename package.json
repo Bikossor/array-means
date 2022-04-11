@@ -12,8 +12,8 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "benchmark": "node ./test/benchmark.js",
-    "build": "gulp",
-    "prepare": "gulp",
+    "build": "node scripts/build.js",
+    "prepare": "node scripts/build.js",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
     "semantic-release": "semantic-release"
