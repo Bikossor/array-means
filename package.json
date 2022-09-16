@@ -2,8 +2,13 @@
   "name": "array-means",
   "version": "0.0.0-development",
   "description": "Calculates various averages of an array",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "default": "./dist/cjs/index.js"
+  },
   "files": [
     "dist/"
   ],
