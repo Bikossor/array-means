@@ -16,7 +16,8 @@
     "prepare": "node scripts/build.js",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "lint": "eslint src/**"
   },
   "repository": {
     "type": "git",
