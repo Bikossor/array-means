@@ -1,19 +1,19 @@
+const getMiddleValue = (middleIndex: number, sorted: number[]) =>
+  middleIndex % 1
+    ? sorted[middleIndex - 0.5]
+    : (sorted[middleIndex - 1] + sorted[middleIndex]) / 2;
+
 /**
  * @param {number[]} arr - The array of which the median is calculated on
  * @returns {number} The median
  */
 export const median = (arr: number[]): number => {
-  if (!Array.isArray(arr)) {
-    throw new Error("Argument is not an array!");
-  }
+  const middleIndex = arr.length / 2;
 
-  const sorted = arr.sort((a, b) => a - b);
-  const middle = Math.floor(sorted.length / 2);
-  const middleValue = sorted[middle];
-
-  if (sorted.length % 2 === 0) {
-    return (sorted[middle - 1] + middleValue) / 2;
-  }
-
-  return middleValue;
+  return Array.isArray(arr)
+    ? getMiddleValue(
+        middleIndex,
+        [...arr].sort((a, b) => a - b),
+      )
+    : NaN;
 };

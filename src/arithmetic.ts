@@ -3,13 +3,5 @@
  * @returns {number} The arithmetic mean
  */
 export const arithmetic = (arr: number[]): number => {
-  if (!Array.isArray(arr)) {
-    throw new Error("Argument is not an array!");
-  }
-
-  var result = arr.reduce(function (a, b) {
-    return a + b;
-  }, 0);
-
-  return result / arr.length;
+  return Array.isArray(arr) ? arr.reduce((a, b) => a + b, 0) / arr.length : NaN;
 };

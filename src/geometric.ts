@@ -3,13 +3,10 @@
  * @returns {number} The geometric mean
  */
 export const geometric = (arr: number[]): number => {
-  if (!Array.isArray(arr)) {
-    throw new Error("Argument is not an array!");
-  }
-
-  var result = arr.reduce(function (a, b) {
-    return (a *= b);
-  });
-
-  return Math.pow(result, 1 / arr.length);
+  return Array.isArray(arr)
+    ? Math.pow(
+        arr.reduce((a, b) => (a *= b)),
+        1 / arr.length,
+      )
+    : NaN;
 };

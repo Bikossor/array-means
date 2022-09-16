@@ -3,13 +3,7 @@
  * @returns {number} The cubic mean
  */
 export const cubic = (arr: number[]): number => {
-  if (!Array.isArray(arr)) {
-    throw new Error("Argument is not an array!");
-  }
-
-  var result = arr.reduce(function (a, b) {
-    return a + Math.pow(b, 3);
-  }, 0);
-
-  return Math.pow(result / arr.length, 1 / 3);
+  return Array.isArray(arr)
+    ? Math.pow(arr.reduce((a, b) => a + Math.pow(b, 3), 0) / arr.length, 1 / 3)
+    : NaN;
 };
