@@ -17,10 +17,10 @@ describe("Arithmetic tests", () => {
   });
 
   test(`Arithmetic mean of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      arithmetic("Hello World");
-    }).toThrow();
+      arithmetic("Hello World")
+    ).toBe(NaN);
   });
 });
 
@@ -30,10 +30,10 @@ describe("Quadratic tests", () => {
   });
 
   test(`Quadratic mean of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      quadratic("Hello World");
-    }).toThrow();
+      quadratic("Hello World")
+    ).toBe(NaN);
   });
 });
 
@@ -43,10 +43,10 @@ describe("Harmonic tests", () => {
   });
 
   test(`Harmonic mean of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      harmonic("Hello World");
-    }).toThrow();
+      harmonic("Hello World")
+    ).toBe(NaN);
   });
 });
 
@@ -56,10 +56,10 @@ describe("Geometric tests", () => {
   });
 
   test(`Geometric mean of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      geometric("Hello World");
-    }).toThrow();
+      geometric("Hello World")
+    ).toBe(NaN);
   });
 });
 
@@ -69,10 +69,10 @@ describe("Cubic tests", () => {
   });
 
   test(`Cubic mean of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      cubic("Hello World");
-    }).toThrow();
+      cubic("Hello World")
+    ).toBe(NaN);
   });
 });
 
@@ -82,9 +82,9 @@ describe("Median tests", () => {
   });
 
   test(`Median of an string should throw`, () => {
-    expect(() => {
+    expect(
       // @ts-ignore
-      median("Hello World");
-    }).toThrow();
+      median("Hello World")
+    ).toBe(NaN);
   });
 });

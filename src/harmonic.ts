@@ -3,13 +3,5 @@
  * @returns {number} The harmonic mean
  */
 export const harmonic = (arr: number[]): number => {
-  if (!Array.isArray(arr)) {
-    throw new Error("Argument is not an array!");
-  }
-
-  var result = arr.reduce(function (a, b) {
-    return a + 1 / b;
-  }, 0);
-
-  return arr.length / result;
+  return Array.isArray(arr) ? arr.length / arr.reduce((a, b) => a + 1 / b, 0) : NaN;
 };
