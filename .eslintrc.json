@@ -21,7 +21,7 @@
         "functional"
     ],
     "rules": {
-      "functional/prefer-readonly-type": false
+      "functional/prefer-readonly-type": "off"
     },
     "ignorePatterns": [
       "**/*.test.ts"
