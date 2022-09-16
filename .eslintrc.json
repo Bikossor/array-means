@@ -21,5 +21,8 @@
         "functional"
     ],
     "rules": {
-    }
+    },
+    "ignorePatterns": [
+      "**/*.test.ts"
+    ]
 }
