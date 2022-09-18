@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const harmonicResult = 200.6986989307875;
+const expectedResult = 200.6986989307875;
 
-describe("Harmonic tests", () => {
-  test(`Harmonic mean of "dummyArray" should be "${harmonicResult}"`, () => {
-    expect(harmonic(dummyArray)).toBe(harmonicResult);
+describe("Harmonic mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(harmonic(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Harmonic mean of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       harmonic("Hello World"),

@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const arithmeticResult = 511.7;
+const expectedResult = 511.7;
 
-describe("Arithmetic tests", () => {
-  test(`Arithmetic mean of "dummyArray" should be "${arithmeticResult}"`, () => {
-    expect(arithmetic(dummyArray)).toBe(arithmeticResult);
+describe("Arithmetic mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(arithmetic(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Arithmetic mean of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       arithmetic("Hello World"),

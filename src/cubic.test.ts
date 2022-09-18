@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const cubicResult = 638.3780301575599;
+const expectedResult = 638.3780301575599;
 
-describe("Cubic tests", () => {
-  test(`Cubic mean of "dummyArray" should be "${cubicResult}"`, () => {
-    expect(cubic(dummyArray)).toBe(cubicResult);
+describe("Cubic mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(cubic(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Cubic mean of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       cubic("Hello World"),

@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const quadraticResult = 589.5979138362007;
+const expectedResult = 589.5979138362007;
 
-describe("Quadratic tests", () => {
-  test(`Quadratic mean of "dummyArray" should be "${quadraticResult}"`, () => {
-    expect(quadratic(dummyArray)).toBe(quadraticResult);
+describe("Quadratic mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(quadratic(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Quadratic mean of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       quadratic("Hello World"),
