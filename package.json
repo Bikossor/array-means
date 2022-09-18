@@ -17,7 +17,7 @@
     "commit": "cz",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "benchmark": "ts-node ./test/benchmark.ts",
+    "benchmark": "ts-node scripts/benchmark.ts",
     "build": "node scripts/build.js",
     "prepare": "node scripts/build.js",
     "prettier:check": "npx prettier --check .",
