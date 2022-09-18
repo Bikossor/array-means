@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const geometricResult = 375.52610369612273;
+const expectedResult = 375.52610369612273;
 
-describe("Geometric tests", () => {
-  test(`Geometric mean of "dummyArray" should be "${geometricResult}"`, () => {
-    expect(geometric(dummyArray)).toBe(geometricResult);
+describe("Geometric mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(geometric(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Geometric mean of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       geometric("Hello World"),

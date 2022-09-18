@@ -5,14 +5,14 @@ const dummyArray = [
   549, 879,
 ];
 
-const medianResult = 544;
+const expectedResult = 544;
 
-describe("Median tests", () => {
-  test(`Median of "dummyArray" should be "${medianResult}"`, () => {
-    expect(median(dummyArray)).toBe(medianResult);
+describe("Median mean", () => {
+  it("should return the expected result if the specified parameter is valid", () => {
+    expect(median(dummyArray)).toBe(expectedResult);
   });
 
-  test(`Median of an string should throw`, () => {
+  it("should return NaN when the specified parameter is invalid", () => {
     expect(
       // @ts-ignore
       median("Hello World"),
