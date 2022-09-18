@@ -24,6 +24,7 @@
       "functional/prefer-readonly-type": "off"
     },
     "ignorePatterns": [
-      "**/*.test.ts"
+      "**/*.test.ts",
+      "/scripts"
     ]
 }

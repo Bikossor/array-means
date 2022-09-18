@@ -1,4 +1,3 @@
-/* eslint-disable */
 const { rmSync } = require("fs");
 const { execSync } = require("child_process");
 const { resolve } = require("path");
